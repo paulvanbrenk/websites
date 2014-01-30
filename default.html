@@ -13,6 +13,7 @@
             margin: 0;
             padding: 0;
             border: 0;
+            overflow: hidden;
         }
 
         #container {
@@ -24,6 +25,7 @@
             height: 100%;
             position: relative;
             margin: auto;
+            border: 1px solid red;
         }
 
         #bgDiv {
@@ -33,7 +35,6 @@
             background-repeat: no-repeat;
             overflow: hidden;
             background-size: cover;
-            border: 1px solid red;
         }
 
         #footer, #header {
@@ -43,6 +44,7 @@
             position:absolute;
             border:0;
             padding:0;
+            background-color: #333;
             border: 1px solid red;
         }
 
@@ -56,13 +58,21 @@
         position: absolute;
          
         }
+
+        #title {
+            background-color: #888;
+            position: relative;
+            opacity: .65;
+            padding: 3px;
+        }
     </style>
 </head>
 <body>
     <div id="container">
         <!-- style dynamisch berekent :) -->
-        <div id="bgDiv" style=" left: 0px; top: -103px; width: 1366px; height: 771px;"></div>
-        <div id="header"><ul style="top:0px; position:absolute"><li>Twitter</li></ul></div>
+        <div id="bgDiv" style=" left: 0px; top: -78px; width: 1366px; height: 771px;"></div>
+        <div id="title" style="left: 135px; top: 135px;">Paul van Brenk</div>
+        <div id="header"><ul><li>Twitter</li></ul></div>
         <div id="footer">Content</div>
     </div>
 </body>
