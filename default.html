@@ -1,79 +1,18 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta charset="utf-8" />
     <title>Ilona Bodderij</title>
-    <style>
-        html, body {
-            height: 100%;
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #333;
-            margin: 0;
-            padding: 0;
-            border: 0;
-            overflow: hidden;
-        }
-
-        #container {
-            min-width: 1115px;
-            max-width: 1366px;
-            width: 100%;
-            min-height: 562px;
-            max-height: 771px;
-            height: 100%;
-            position: relative;
-            margin: auto;
-            border: 1px solid red;
-        }
-
-        #bgDiv {
-            opacity: 1;
-            background-image: url(img/bg.jpg);
-            position: absolute;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            background-size: cover;
-        }
-
-        #footer, #header {
-            height: 35px;
-            width:100%;
-            z-index:9;
-            position:absolute;
-            border:0;
-            padding:0;
-            background-color: #333;
-            border: 1px solid red;
-        }
-
-        #header {
-            top: 0px;
-            position: relative;
-        }
-
-        #footer {
-        bottom: 0px;
-        position: absolute;
-         
-        }
-
-        #title {
-            background-color: #888;
-            position: relative;
-            opacity: .65;
-            padding: 3px;
-        }
-    </style>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <div id="container">
-        <!-- style dynamisch berekent :) -->
-        <div id="bgDiv" style=" left: 0px; top: -78px; width: 1366px; height: 771px;"></div>
-        <div id="title" style="left: 135px; top: 135px;"><!--Ilona Bodderij--></div>
-        <div id="header"><ul><li>Twitter</li></ul></div>
-        <div id="footer">Content</div>
+        <div id="content" class="text">
+            Ilona Bodderij
+        </div>
+        <div id="footer" class="text">
+        </div>
     </div>
 </body>
 </html>
