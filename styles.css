@@ -1,16 +1,12 @@
-﻿* html body {
-  margin: 0;
-  overflow: hidden;
-}
-
-html,
+﻿html,
 body {
   height: 100%;
   overflow: hidden;
+  margin: 0px;
 }
 
 html {
-  background-image: linear-gradient(to top right, #444, #bbb);
+  background-image: linear-gradient(to top right, #333, #bbb);
 }
 
 #container {
@@ -30,9 +26,9 @@ html {
   color: #888;
   text-align: center;
 }
-#content h1{
-    padding: 0px;
-    margin: 0px;
+#content h1 {
+  padding: 0px;
+  margin: 0px;
 }
 
 #footer {
@@ -44,9 +40,9 @@ html {
   text-align: right;
   font-size: 24px;
 }
- #footer span{
-     padding: 10px;
- }
+#footer span {
+  padding: 10px;
+}
 
 .text {
   font-family: Tahoma, Geneva, sans-serif;
